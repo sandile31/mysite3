@@ -210,3 +210,21 @@ transition: 0.5s;
 	font-family: monospace;
 	font-size: 40px;
 }
+
+@media screen and (max-width: 1400px){
+	.banner-text h1{
+	font-size: 30px;
+	text-align: center;
+	
+
+}
+@media screen and (max-width: 1300px){
+
+.logo{
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	height: 150px;
+
+}
