@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: comic sans ms;
+}
+
+	
+	
+
+#banner{
+	background : linear-gradient(rgba(0,0,0,0.5),#009688) ,url("pics/myself.jpg");
+	background-size: cover;
+	background-position:left;
+	height:200vh;
+	
+}
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 180px;
+
+
+}
+.banner-text h1{
+	font-size: 50px;
+	font-family: 'kaushan script' , cursive;
+	text-shadow: 2px 3px cyan;
+
+
+}
+
+
+
+}
+.banner-text p {
+	font-size: 30px;
+	font-style:monospace; 
+	text-shadow: 3px 3px 0000;
+
+
+}
+
+
+.logo{
+	width: 200px;
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	height: 250px;
+
+}
+.banner-btn{
+	margin: 70px auto 0;
+}
+.banner-btn a{
+width: 150px;
+text-decoration: none;
+display: inline-block;
+margin: 0 20px;
+padding: 12px 0;
+color: #fff;
+
+position: relative;
+box-shadow: 2px 3px 14px #fff;
+z-index: 1;
+}
+.banner-btn a span{
+width: 0;
+height:100%;
+position: absolute;
+top: 0;
+left: 0;
+background:#fff;
+z-index: -1;
+transition: 0.5s;
+}
+ .banner-btn a:hover span{
+width:100%;
+ transition: 0.5s;
+
+}
+.banner-btn a:hover{
+	color:cyan;
+	border: .10px solid #fff;
+}
+.banner-text h1:hover {
+width:100%;
+background-image:url(pics/work.jpg);
+
+transition: 0.5s;
+
+}
+
+
+.tex-container p nth-child(2){
+	
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px
+
+}
+.tex-container p{ 
+	margin top:10%;
+	margin-left: 5%;
+}
+.tex-container button {
+	width: 100px;
+	height:42px ;
+	border-radius:10px;
+	font-family:comic sans ms ;
+	font-weight:bold;
+	font-size:10px;
+	margin: 0px 10px;
+	outline: none;
+
+}
+.about-container{
+	margin-top: 30%;
+	width:100%;
+	height: 330px;
+	background-color:darken;
+	border-radius: 20px;
+	box-shadow: 2px 3px 14px cyan;
+	display: flex;
+	align-content: center;
+
+
+}
+
+.about-container img{
+	width:250px;
+	height: 300px;
+}
+#aboutMe{
+	width:500px;
+}
+ 
+
+
+#qual{
+	background-image:url(pics/dev.jpg);
+	background-color: blue;
+}
+#metric{
+	padding-top: 30px;
+	padding-left: 20px;
+	width: 400px;
+	height: 500px;
+	border: 3px 3px solid;
+}
+
+#collage {
+	padding-top: 30px;
+	padding-left: 20px;
+	width: 400px;
+	height: 500px;
+	border: 3px 3px solid;
+}
+#metric img {
+	color: blue;
+	box-shadow: 3px 3px 6px cyan;
+
+}
+#text{
+	padding top: 50px;
+	color:blue;
+	box-shadow: 3px 3px 6px cyan;
+	border: 5px 5px 14px cyan;
+	border-radius: 20px;
+	background-color: black;
+}
+#text :hover{
+	color: blue;
+	transition: 0.5s;
+}
+
+
+
+
+#contactMe{
+	background-color: cyan;
+	background-image:url(pics/dev.jpg);
+
+	}
+#call {
+		
+		width: 60px;
+		height: 90px;
+		
+
+	}
+	#contactMe a{
+
+		font font-style:cursive;
+		color: red;
+	}
+	#mail{
+		margin-top: 2px;
+		width: 50px;
+		height: 70px;
+	}
+	#face,#linkdin,#watap{
+		margin-top: 2px;
+		width: 50px;
+		height: 70px;
+
+	}
+#soc{
+	margin-top: 15px;
+	font-family: monospace;
+	font-size: 40px;
+}
