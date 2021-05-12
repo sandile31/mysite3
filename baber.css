@@ -21,8 +21,8 @@
 
 
 }
-.banner-text h1{
-	font-size: 50px;
+.banner-text h2{
+	font-size: 40px;
 	font-family: 'kaushan script' , cursive;
 	text-shadow: 2px 3px cyan;
 
@@ -83,7 +83,7 @@ width:100%;
 	color:cyan;
 	border: .10px solid #fff;
 }
-.banner-text h1:hover {
+.banner-text h2:hover {
 width:100%;
 background-image:url(pics/work.jpg);
 
@@ -132,7 +132,8 @@ transition: 0.5s;
 	height: 300px;
 }
 #aboutMe{
-	width:500px;
+	width:400px;
+
 }
  
 
@@ -211,14 +212,15 @@ transition: 0.5s;
 	font-size: 40px;
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 540px max-height: 960px){
 	.banner-text h1{
 	font-size: 30px;
 	text-align: center;
+	font-family:cursive;
 	
 
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 540px max-height: 960px){
 
 .logo{
 	width: 100px;
@@ -227,4 +229,41 @@ transition: 0.5s;
 	left: 1%;
 	height: 150px;
 
+}
+@media screen and (max-width: 1000px){
+
+#snap{
+	width: 70px;
+	
+	height: 80px;
+
+}
+
+@media screen and (max-width: 540px max-height: 960px){
+
+#aboutMe p{
+	font-size: 10px;
+	text-align: center;
+	
+
+}
+
+@media screen and (max-width: 540px max-height: 960px){
+
+#about-container{
+
+	width:50%;
+	height: 90px;
+	background-color:blue;
+	border-radius: 20px;
+	box-shadow: 2px 3px 14px cyan;
+	display: flex;
+	align-content: center;
+
+	
+
+}
+.title h2{
+	color:blue;
+	font-size: 10px;
 }
