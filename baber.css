@@ -266,7 +266,7 @@ transition: 0.5s;
 	display:none;
 
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
 
 #snap{
 	width: 70px;
