@@ -198,13 +198,13 @@ transition: 0.5s;
 	border: 3px 3px solid;
 }
 #metric img {
-	color: blue;
+	color: white;
 	box-shadow: 3px 3px 6px cyan;
 
 }
 #text{
 	padding top: 50px;
-	color:blue;
+	color:white;
 	box-shadow: 3px 3px 6px cyan;
 	border: 5px 5px 14px cyan;
 	border-radius: 20px;
