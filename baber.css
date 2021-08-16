@@ -263,7 +263,10 @@ transition: 0.5s;
 @media screen and (max-width: 540px max-height: 960px){
 
 .logo{
-	display:none;
+	width: 40px;
+	
+	height: 60px;
+
 
 }
 @media screen and (max-width: 900px){
