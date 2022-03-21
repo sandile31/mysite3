@@ -46,7 +46,7 @@
 	
 
 #banner{
-	background : linear-gradient(rgba(0,0,0,0.5),#009688) ,url("pics/back.jpg");
+	background : linear-gradient(rgba(0,0,0,0.5),#009688) ,url("myself.jpg");
 	background-size: cover;
 	background-position:left;
 	height:200vh;
