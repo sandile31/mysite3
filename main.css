@@ -148,7 +148,7 @@ img {
 }
 .showcase:hover{
 
-	background:var(--light);
+	background:url("pictures/pro.jpg");;
 	color:var(--dark);
 	width:90%;
 	transition: 0.5s;

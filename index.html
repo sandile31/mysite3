@@ -11,7 +11,7 @@
 		<h2>Hi I`M SANDILE</h2>
 		<p>Welcome to my World</p>
 	<!--logo--->
-		<center><img src="polob.png" class="logo"></center>
+		<!--<center><img src="polob.png" class="logo"></center>--!>
 
 		
 	<!--navigation--->	<div class="banner-btn">
@@ -30,16 +30,17 @@
 	<!--about me--->
 	<!---<img src="pics/sandisa.jpg" id="snap">-->
 <div id="aboutMe">
-	<h3 id="title">WEB & SOFWARE DEVELOPER</h3>
-	<p>Hello It`s Sandile sasa Ngcobo right here, I`m A SOFTWARE and Web DEVELOPER<br>
-   Im fresh from collage,and i hold a National Diploma in IT, Currently looking for opportunities to grow my career in technology<br>Im a hardworking,energetic  individual who is earger to learn<br>Im seeking for an entry level or internship role ,should you wish to hire me please download my cv and contact me, im always available , Yours Truly.</p>
+	<h3 id="title">Aspiring Software & Web Developer | IT Graduate with a Passion for AI and Data Science</h3>
+	<p>Hello! I’m Sandile Sasa Ngcobo, a National Diploma in IT holder with a fervor for Software and Web Development, and a burgeoning interest in AI and Data Science. Fresh out of college and eager to delve into the tech world, I am actively seeking opportunities that will allow me to explore various technological domains. My goal is to not only grow my career but also to contribute to the advancement of these exciting fields. Whether it’s an entry-level position, internship, or a project that needs a fresh perspective, I am ready to learn and apply my skills. For those interested in collaborating with an enthusiastic learner who is ready to tackle challenges in tech, please download my CV and reach out. Let’s innovate together!<br>
+
+Yours Truly, Sandile.</p>
 
 
 
 </div>
 </div>
 
-<img src="pics/sandisa.jpg" id="snap">
+
 
 
 </div>
@@ -53,7 +54,22 @@
 </section> 
 
 
+ <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
 
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
 		
 		
